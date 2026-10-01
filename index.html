@@ -1,233 +1,714 @@
+```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bo">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Learn is a modern and fully responsive Template by WebThemez.">
-	<meta name="author" content="webThemez.com">
-	<title>Learn - Free Educational Responsive Web Template </title>
-	<link rel="favicon" href="assets/images/favicon.png">
-	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-	<!-- Custom styles for our template -->
-	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="assets/css/da-slider.css" />
-	<link rel="stylesheet" href="assets/css/style.css">
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	<script src="assets/js/html5shiv.js"></script>
-	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Tibet World - Tibetan Language and Culture">
+    <meta name="author" content="Tibet World">
+
+    <title>Tibet World</title>
+
+    <link rel="favicon" href="assets/images/favicon.png">
+
+    <!-- Jomolhari Tibetan Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jomolhari&display=swap">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="assets/css/da-slider.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Jomolhari Font & Font Size -->
+    <style>
+        /* Main Tibetan font */
+        body {
+            font-family: 'Jomolhari', serif;
+            font-size: 22px;
+        }
+
+        /* Tibetan text */
+        p,
+        li,
+        blockquote,
+        .box_inner,
+        .caption,
+        .title-box_primary,
+        .heading h2 {
+            font-family: 'Jomolhari', serif;
+        }
+
+        /* Main text size */
+        p,
+        li,
+        blockquote,
+        .box_inner,
+        .caption {
+            font-size: 22px;
+            line-height: 1.8;
+        }
+
+        /* Navigation */
+        .mainNav > li > a {
+            font-family: 'Jomolhari', serif;
+            font-size: 22px;
+        }
+
+        .dropdown-menu > li > a {
+            font-family: 'Jomolhari', serif;
+            font-size: 22px;
+        }
+
+        /* Section headings */
+        .heading h2 {
+            font-family: 'Jomolhari', serif;
+            font-size: 30px;
+        }
+
+        .title-box_primary {
+            font-size: 28px;
+        }
+
+        /* Slider text */
+        .da-slide h2 {
+            font-family: 'Jomolhari', serif;
+        }
+
+        .da-slide p {
+            font-family: 'Jomolhari', serif;
+            font-size: 22px;
+        }
+
+        /* Buttons */
+        .btn-inline {
+            font-family: 'Jomolhari', serif;
+            font-size: 22px;
+        }
+
+        /* Footer */
+        .footer2,
+        .footer2 a,
+        .social a {
+            font-family: 'Jomolhari', serif;
+        }
+
+        .footer2 {
+            font-size: 18px;
+        }
+
+        /* Better spacing for Tibetan text */
+        p {
+            line-height: 1.8;
+        }
+
+        blockquote {
+            line-height: 1.8;
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js IE8 support -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
-	<!-- Fixed navbar -->
-	<div class="navbar navbar-inverse">
-		<div class="container">
-			<div class="navbar-header">
-				<!-- Button for smallest screens -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-				<a class="navbar-brand" href="index.html">
-					<img src="assets/images/logo.png" alt="Techro HTML5 template"></a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav pull-right mainNav">
-					<li class="active"><a href="index.html">མདུན་ངོས།</a></li>
-					<li><a href="courses.html">སློབ་ཚན།</a></li>
-					<li><a href="fees.html">སློབ་དེབ།</a></li>
-					<li><a href="portfolio.html">ལས་འགུལ།</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">སྒྲ་བརྙན།<b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="#">ནང་ཆོས།</a></li>
-							<li><a href="#">སྐད་ཡིག</a></li>
-							<li><a href="#">གཞས་སྣ།</a></li>
-						</ul>
-					</li>
-					<li><a href="about.html">ང་ཚོའི་སྐོར།</a></li>
-					<li><a href="contact.html">འབྲེལ་མཐུད།</a></li>
 
-				</ul>
-			</div>
-			<!--/.nav-collapse -->
-		</div>
-	</div>
-	<!-- /.navbar -->
-
-	<!-- Header -->
-	<header id="head">
-		<div class="container">
-			<div class="banner-content">
-				<div id="da-slider" class="da-slider">
-					<div class="da-slide">
-						<h2>Educational Website</h2>
-						<p>Amazing free responsive website for free, enjoy!!!</p>
-						<div class="da-img"></div>
-					</div>
-					<div class="da-slide">
-						<h2>Online Education</h2>
-						<p>Bootstrap is a powerful mobile first front-end framework..</p>
-						<div class="da-img"></div>
-					</div>
-					<div class="da-slide">
-						<h2>Super Success</h2>
-						<p>HTML5 is a markup language used for structuring and presenting Web.</p>
-						<div class="da-img"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- /Header -->
-
-	   <section class="container">
-		<div class="heading">
-			<!-- Heading -->
-			<h2>སློབ་གླིང་གི་སྐོར།</h2>
-		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<img src="https://github.com/Drongbulobsang/Learnfree.github.io/blob/main/assets/images/bg_header01.jpg?raw=true" alt="" class="img-responsive">
-			</div>
-			<div class="col-md-8">
-				<p>ནང་བསྟན་སྲི་ཞུ་ཁང་ནི་ནང་བསྟན་སྤྱི་དང་བྱེ་བྲག་བོད་བརྒྱུད་ནང་བསྟན་ལ་ཞབས་འདེགས་ཞུ་མཁན་གྱི་རང་ཁ་རང་གསོའི་ཁེ་མེད་ཞབས་ཞུ་ཚོགས་པ་ཞིག་ཡིན་པ་དང་། ཕྱི་ལོ་༢༠༡༠ ཟླ་༡༠ནང་ཧྥ་རན་སིའི་གྲོང་ཁྱེར་བྷོར་ཊོག་སི་(Bordeaux)ནང་ཐོག་མར་གསར་འཛུགས་གནང་། ཕྱི་ལོ་༢༠༡༡་ཟླ་༩པའི་ཚེས་༡༠ཉིན་དྷ་རམ་ས་ལར་ནང་བསྟན་སྲི་ཞུ་ཁང་གི་ཡན་ལག་ཚོགས་པ་གསར་དུ་བཙུགས་པ་དང་། ཕྱི་ལོ་༢༠༡༢ལོར་རྒྱ་གར་ཧི་མ་ཅལ་མངའ་སྡེའི་གཞུང་ལ་གཞུང་འབྲེལ་མ་ཡིན་པའི་ཚོགས་པའི་ཐོག་ནས་ཁྲིམས་མཐུན་དེབ་སྐྱེལ་བྱས་ཡོད་འདུག ནང་བསྟན་སྲི་ཞུ་ཁང་ནས་ད་ལྟ་བར་མི་རིགས་མི་འདྲ་༡༠༠ལྷག་གིས་སློབ་གཉེར་བ་གྲངས་༡༤༤༠ལྷག་ལ་བོད་ཀྱི་སྐད་ཡིག་དང་། ནང་ཆོས་ཀྱིས་གཙོའི་བོད་ཀྱི་སྲོལ་རྒྱུན་རིག་གནས་སློབ་འཁྲིད་བྱས་ཡོད་འདུག སྲི་ཞུ་ཁང་དུ་དྲ་ཐོག་སློབ་གྲྭ་དང་མྱུར་སྦྱོང་སློབ་གྲྭ། རྩོམ་སྒྲིག་སྡེ་ཚན། ཞིབ་འཇུག་སྡེ་ཚན། དཔེ་སྡུར་སྡེ་ཚན་བཅས་སྡེ་ཚན་ཆེན་པོ་ལྔ་ཡོད་པ་དང་དེ་དག་གི་ནང་དུ་ལས་མི་༧༠་དང་། སློབ་གྲྭ་གཉིས་སུ་ཁྱོན་བསྡོམས་སློབ་གཉེར་བ་༡༠༣ཡོད་འདུག</p>
-				<blockquote class="blockquote-1">
-					<p>སློབ་ཁྲིད་ལུགས་ལྡོག་དེ་བཞིན་ཐོག་མར་ ༡༩༩༠ ལོར་གསར་གཏོད་བྱུང་བ་ཞིག་དང་རིམ་པས་ ༢༠༠༧ ནས་བཟུང་དེ་དག་བེད་སྤྱོད་གཏོང་མཁན་ནང་འགུལ་འདེད་ཆེན་པོ་ཞིག་ཐེབས་ཏེ། དེ་དག་བཀོལ་སྤྱོད་བྱེད་མཁན་གྱི་ཁྱབ་ཚད་ཇེ་མང་དུ་འཕེལ་ཡོད། དེས་སྲོལ་རྒྱུན་འཛིན་གྲྭའི་བཀག་རྒྱ་རང་བཞིན་ལས་བརྒལ་ཏེ།  སྐད་ཡིག་ནི་དོར་ཐབས་མེད་མའི་འཚོ་བའི་གཞི་རྩའི་དགོས་མཁོ་ཞིག་ཡིན་པར་ནན་བཤད་བྱེད་ཀྱི་ཡོད། སློབ་ཁྲིད་ལུགས་ལྡོག་དེ་བཞིན་ཤེས་ཡོན་སློབ་གསོ་བ་ཞིག་གི་བློ་རྒྱ་དང་ཐབས་ལམ་ལ་ལེགས་བཅོས་བྱ་རྒྱུར་འགག་རྩའི་སྟོབས་ཤུགས་ཤིག་ཡིན།</p>
-					<small>སློབ་ཁྲིད་<cite title="Source Title">ཐབས་ལམ།</cite></small>
-				</blockquote>
-			</div>
-		</div>
-	</section>
-	
-	
-      <section class="container">
-      <div class="row">
-      	<div class="col-md-4"><div class="title-box clearfix "><h2 class="title-box_primary">ང་ཚོའི་སློབ་ཕྲུག</h2></div> 
-        <p><span>ནང་བསྟན་སྲི་ཞུ་ཁང་ནས་ད་ལྟ་བར་མི་རིགས་མི་འདྲ་༡༠༠ལྷག་གིས་སློབ་གཉེར་བ་གྲངས་༡༤༤༠ལྷག་ལ་བོད་ཀྱི་སྐད་ཡིག་དང་། ནང་ཆོས་ཀྱིས་གཙོའི་བོད་ཀྱི་སྲོལ་རྒྱུན་རིག་གནས་སློབ་འཁྲིད་བྱས་ཡོད་འདུག</span></p>
-        <p>སྲི་ཞུ་ཁང་དུ་དྲ་ཐོག་སློབ་གྲྭ་དང་མྱུར་སྦྱོང་སློབ་གྲྭ། རྩོམ་སྒྲིག་སྡེ་ཚན། ཞིབ་འཇུག་སྡེ་ཚན། དཔེ་སྡུར་སྡེ་ཚན་བཅས་སྡེ་ཚན་ཆེན་པོ་ལྔ་ཡོད་པ་དང་དེ་དག་གི་ནང་དུ་ལས་མི་༧༠་དང་། སློབ་གྲྭ་གཉིས་སུ་ཁྱོན་བསྡོམས་སློབ་གཉེར་བ་༡༠༣ཡོད་འདུག</p>
-        <a href="#" title="read more" class="btn-inline " target="_self">དེ་ལས་མང་བ།</a> </div>
-        
-        <div class="col-md-4"><div class="title-box clearfix "><h2 class="title-box_primary">སློབ་ཚན།</h2></div> 
-            <div class="list styled custom-list">
-            <ul>
-            <li><a title="Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus." href="https://www.arapatsa.org/courses/course-v1:khentsefoundation+01+2018010015/about">རྒྱལ་སྲས་ལག་ལེན་སོ་བདུན་མ།</a></li>
-            <li><a title="Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus." href="https://www.arapatsa.org/courses/course-v1:khentsefoundation+02+e.g.2019-2020_T2/about">ཤེས་བྱ་ཀུན་ཁྱབ།</a></li>
-            <li><a title="Penatibus et magnis dis parturient montes ascetur ridiculus mus." href="https://www.arapatsa.org/courses/course-v1:Esukhiax+Esukhia001+2018/about">བོད་ཀྱི་སྐད་ཡིག་གནས་ཚད་དང་པོ།</a></li>
-            <li><a title="Morbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci." href="https://www.arapatsa.org/courses/course-v1:Esukhia+Esukhia002+2018/about">བོད་ཀྱི་སྐད་ཡིག་གནས་ཚད་གཉིས་པ།</a></li>
-            <li><a title="Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus." href="https://www.arapatsa.org/courses/course-v1:Esukhia+TSL-A0+2018/about">བོད་ཀྱི་སྐད་ཡིག་གནས་ཚད་སྔོན་འགྲོ།</a></li>
-            <li><a title="Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus." href="https://www.arapatsa.org/courses/course-v1:BDRC+BUDAx_DIG01_16+2023_10/about">དཔེ་ཆ་བཤེར་འབེབས་བྱེད་ཚུལ།</a></li>
-			<li><a title="Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus." href="https://www.arapatsa.org/courses/course-v1:Khentsefoundation+KF02+2019/about">བློ་གསལ་འཇུག་ངོགས། ༼སུམ་ཅུ་པ།༽</a></li>
-            </ul>
-            </div>
-         </div>
-         <div class="col-md-4"><div class="title-box clearfix "><h2 class="title-box_primary">ས་ཁྲ།</h2></div> 
-            <figure class="frame thumbnail alignnone clearfix">
-            <p><img class="size-full " alt="usa" src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t1.18169-9/7060_502811549772271_1038252107_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c2f564&_nc_ohc=XKAQqI1h4OQAX_XGPPd&_nc_ht=scontent.ftpe8-3.fna&oh=00_AfClFutveRNooPM4IqCUEqYA3PWRUFwcKhURV49OQXk5Tw&oe=659A4F40" width="" height="197"></p>
-            </figure></div>
-         
-      </div>
-      </section>
-      
-    
-      
-      <section class="news-box">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse">
         <div class="container">
-            <h2><span>གནས་ཚུལ་གསར་པ།</span></h2>
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                    <div class="newsBox">
-                        <div class="thumbnail">
-                            <figure><time datetime="2014-01-01">25 Nov, 2014</time><img src="https://tibettimes.net/wp-content/uploads/2017/09/1234567-1.jpg" alt=""></figure>
-                            <div class="caption maxheight2"><div class="box_inner">
-								མྱུར་སྦྱོང་འཛིན་གྲྭའི་སློབ་འཁྲིད་བྱེད་སྟངས་དེ་ཡག་པོ་འདུག
-                            </div></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                    <div class="newsBox">
-                        <div class="thumbnail">
-                            <figure><time datetime="2014-01-01">25 Nov, 2014</time><img src="https://tibettimes.net/wp-content/uploads/2017/09/werrrttyyuyuui.jpg" alt=""></figure>
-                            <div class="caption maxheight2"><div class="box_inner">
-                                ནང་བསྟན་སྲི་ཞུ་ཁང་དབུ་བརྙེས་ཏེ་ལོ་གསུམ་འཁོར་བའི་མཛད་སྒོ་ཚོགས་པ།
-                            </div></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                    <div class="newsBox">
-                        <div class="thumbnail">
-                            <figure><time datetime="2014-01-01">25 Nov, 2014</time><img src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t39.30808-6/405490768_385259340512869_5547925886813873459_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_ohc=mTob-rJKducAX8_H3lZ&_nc_ht=scontent.ftpe8-3.fna&oh=00_AfC6RsJAD9QCTF5Iq0F9CzHeFxofGX7Dholj-GyC-vhKyQ&oe=65779971" alt=""></figure>
-                            <div class="caption maxheight2"><div class="box_inner">
-                                དྲ་ཐོག་འཛིན་གྲྭ་འཚོགས་བཞིན་པ།
-                            </div></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                    <div class="newsBox">
-                        <div class="thumbnail">
-                            <figure><time datetime="2014-01-01">25 Nov, 2014</time><img src="https://scontent.ftpe8-2.fna.fbcdn.net/v/t39.30808-6/381850540_347585834280220_8848576472154300381_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=3635dc&_nc_ohc=KZiEY9SE0_4AX910vKR&_nc_ht=scontent.ftpe8-2.fna&oh=00_AfBI4PI5QdvpUXSHpcsmV5LBYeXlBldG4uOau-OBU3t-Zg&oe=65782EBC" alt=""></figure>
-                            <div class="caption maxheight2"><div class="box_inner">
-                                སློབ་ཁྲིད་ལུགས་ལྡོག་གི་ངོ་སྤྲོད།
-                            </div></div>
-                        </div>
-                    </div>
-                </div>
+
+            <div class="navbar-header">
+
+                <!-- Button for smallest screens -->
+                <button type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse">
+
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" alt="Tibet World">
+                </a>
+
             </div>
+
+            <div class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav pull-right mainNav">
+
+                    <li class="active">
+                        <a href="index.html">མདུན་ངོས།</a>
+                    </li>
+
+                    <li>
+                        <a href="courses.html">སློབ་ཚན།</a>
+                    </li>
+
+                    <li>
+                        <a href="fees.html">སློབ་དེབ།</a>
+                    </li>
+
+                    <li>
+                        <a href="portfolio.html">ལས་འགུལ།</a>
+                    </li>
+
+                    <li class="dropdown">
+
+                        <a href="#"
+                           class="dropdown-toggle"
+                           data-toggle="dropdown">
+
+                            སྒྲ་བརྙན།
+                            <b class="caret"></b>
+
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="sidebar-right.html">Right Sidebar</a>
+                            </li>
+
+                            <li>
+                                <a href="#">ནང་ཆོས།</a>
+                            </li>
+
+                            <li>
+                                <a href="#">སྐད་ཡིག</a>
+                            </li>
+
+                            <li>
+                                <a href="#">གཞས་སྣ།</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a href="about.html">ང་ཚོའི་སྐོར།</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">འབྲེལ་མཐུད།</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
         </div>
+    </div>
+
+    <!-- Header -->
+    <header id="head">
+
+        <div class="container">
+
+            <div class="banner-content">
+
+                <div id="da-slider" class="da-slider">
+
+                    <div class="da-slide">
+
+                        <h2>Educational Website</h2>
+
+                        <p>
+                            Amazing free responsive website for free, enjoy!!!
+                        </p>
+
+                        <div class="da-img"></div>
+
+                    </div>
+
+                    <div class="da-slide">
+
+                        <h2>Online Education</h2>
+
+                        <p>
+                            Bootstrap is a powerful mobile first front-end framework.
+                        </p>
+
+                        <div class="da-img"></div>
+
+                    </div>
+
+                    <div class="da-slide">
+
+                        <h2>Super Success</h2>
+
+                        <p>
+                            HTML5 is a markup language used for structuring and presenting Web.
+                        </p>
+
+                        <div class="da-img"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- About Section -->
+    <section class="container">
+
+        <div class="heading">
+
+            <h2>སློབ་གླིང་གི་སྐོར།</h2>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <img
+                    src="https://github.com/Drongbulobsang/Learnfree.github.io/blob/main/assets/images/bg_header01.jpg?raw=true"
+                    alt=""
+                    class="img-responsive">
+
+            </div>
+
+            <div class="col-md-8">
+
+                <p>
+                    ནང་བསྟན་སྲི་ཞུ་ཁང་ནི་ནང་བསྟན་སྤྱི་དང་བྱེ་བྲག་བོད་བརྒྱུད་ནང་བསྟན་ལ་ཞབས་འདེགས་ཞུ་མཁན་གྱི་རང་ཁ་རང་གསོའི་ཁེ་མེད་ཞབས་ཞུ་ཚོགས་པ་ཞིག་ཡིན་པ་དང་། ཕྱི་ལོ་༢༠༡༠ ཟླ་༡༠ནང་ཧྥ་རན་སིའི་གྲོང་ཁྱེར་བྷོར་ཊོག་སི་(Bordeaux)ནང་ཐོག་མར་གསར་འཛུགས་གནང་། ཕྱི་ལོ་༢༠༡༡་ཟླ་༩པའི་ཚེས་༡༠ཉིན་དྷ་རམ་ས་ལར་ནང་བསྟན་སྲི་ཞུ་ཁང་གི་ཡན་ལག་ཚོགས་པ་གསར་དུ་བཙུགས་པ་དང་། ཕྱི་ལོ་༢༠༡༢ལོར་རྒྱ་གར་ཧི་མ་ཅལ་མངའ་སྡེའི་གཞུང་ལ་གཞུང་འབྲེལ་མ་ཡིན་པའི་ཚོགས་པའི་ཐོག་ནས་ཁྲིམས་མཐུན་དེབ་སྐྱེལ་བྱས་ཡོད་འདུག ནང་བསྟན་སྲི་ཞུ་ཁང་ནས་ད་ལྟ་བར་མི་རིགས་མི་འདྲ་༡༠༠ལྷག་གིས་སློབ་གཉེར་བ་གྲངས་༡༤༤༠ལྷག་ལ་བོད་ཀྱི་སྐད་ཡིག་དང་། ནང་ཆོས་ཀྱིས་གཙོའི་བོད་ཀྱི་སྲོལ་རྒྱུན་རིག་གནས་སློབ་འཁྲིད་བྱས་ཡོད་འདུག སྲི་ཞུ་ཁང་དུ་དྲ་ཐོག་སློབ་གྲྭ་དང་མྱུར་སྦྱོང་སློབ་གྲྭ། རྩོམ་སྒྲིག་སྡེ་ཚན། ཞིབ་འཇུག་སྡེ་ཚན། དཔེ་སྡུར་སྡེ་ཚན་བཅས་སྡེ་ཚན་ཆེན་པོ་ལྔ་ཡོད་པ་དང་དེ་དག་གི་ནང་དུ་ལས་མི་༧༠་དང་། སློབ་གྲྭ་གཉིས་སུ་ཁྱོན་བསྡོམས་སློབ་གཉེར་བ་༡༠༣ཡོད་འདུག
+                </p>
+
+                <blockquote class="blockquote-1">
+
+                    <p>
+                        སློབ་ཁྲིད་ལུགས་ལྡོག་དེ་བཞིན་ཐོག་མར་ ༡༩༩༠ ལོར་གསར་གཏོད་བྱུང་བ་ཞིག་དང་རིམ་པས་ ༢༠༠༧ ནས་བཟུང་དེ་དག་བེད་སྤྱོད་གཏོང་མཁན་ནང་འགུལ་འདེད་ཆེན་པོ་ཞིག་ཐེབས་ཏེ། དེ་དག་བཀོལ་སྤྱོད་བྱེད་མཁན་གྱི་ཁྱབ་ཚད་ཇེ་མང་དུ་འཕེལ་ཡོད། དེས་སྲོལ་རྒྱུན་འཛིན་གྲྭའི་བཀག་རྒྱ་རང་བཞིན་ལས་བརྒལ་ཏེ། སྐད་ཡིག་ནི་དོར་ཐབས་མེད་མའི་འཚོ་བའི་གཞི་རྩའི་དགོས་མཁོ་ཞིག་ཡིན་པར་ནན་བཤད་བྱེད་ཀྱི་ཡོད། སློབ་ཁྲིད་ལུགས་ལྡོག་དེ་བཞིན་ཤེས་ཡོན་སློབ་གསོ་བ་ཞིག་གི་བློ་རྒྱ་དང་ཐབས་ལམ་ལ་ལེགས་བཅོས་བྱ་རྒྱུར་འགག་རྩའི་སྟོབས་ཤུགས་ཤིག་ཡིན།
+                    </p>
+
+                    <small>
+                        སློབ་ཁྲིད་
+                        <cite title="Source Title">ཐབས་ལམ།</cite>
+                    </small>
+
+                </blockquote>
+
+            </div>
+
+        </div>
+
     </section>
-   
+
+
+    <!-- Students / Courses / Map -->
+    <section class="container">
+
+        <div class="row">
+
+            <!-- Students -->
+            <div class="col-md-4">
+
+                <div class="title-box clearfix">
+
+                    <h2 class="title-box_primary">
+                        ང་ཚོའི་སློབ་ཕྲུག
+                    </h2>
+
+                </div>
+
+                <p>
+                    ནང་བསྟན་སྲི་ཞུ་ཁང་ནས་ད་ལྟ་བར་མི་རིགས་མི་འདྲ་༡༠༠ལྷག་གིས་སློབ་གཉེར་བ་གྲངས་༡༤༤༠ལྷག་ལ་བོད་ཀྱི་སྐད་ཡིག་དང་། ནང་ཆོས་ཀྱིས་གཙོའི་བོད་ཀྱི་སྲོལ་རྒྱུན་རིག་གནས་སློབ་འཁྲིད་བྱས་ཡོད་འདུག
+                </p>
+
+                <p>
+                    སྲི་ཞུ་ཁང་དུ་དྲ་ཐོག་སློབ་གྲྭ་དང་མྱུར་སྦྱོང་སློབ་གྲྭ། རྩོམ་སྒྲིག་སྡེ་ཚན། ཞིབ་འཇུག་སྡེ་ཚན། དཔེ་སྡུར་སྡེ་ཚན་བཅས་སྡེ་ཚན་ཆེན་པོ་ལྔ་ཡོད་པ་དང་དེ་དག་གི་ནང་དུ་ལས་མི་༧༠་དང་། སློབ་གྲྭ་གཉིས་སུ་ཁྱོན་བསྡོམས་སློབ་གཉེར་བ་༡༠༣ཡོད་འདུག
+                </p>
+
+                <a href="#"
+                   title="read more"
+                   class="btn-inline"
+                   target="_self">
+
+                    དེ་ལས་མང་བ།
+
+                </a>
+
+            </div>
+
+
+            <!-- Courses -->
+            <div class="col-md-4">
+
+                <div class="title-box clearfix">
+
+                    <h2 class="title-box_primary">
+                        སློབ་ཚན།
+                    </h2>
+
+                </div>
+
+                <div class="list styled custom-list">
+
+                    <ul>
+
+                        <li>
+                            <a href="https://www.arapatsa.org/courses/course-v1:khentsefoundation+01+2018010015/about">
+                                རྒྱལ་སྲས་ལག་ལེན་སོ་བདུན་མ།
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.arapatsa.org/courses/course-v1:khentsefoundation+02+e.g.2019-2020_T2/about">
+                                ཤེས་བྱ་ཀུན་ཁྱབ།
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.arapatsa.org/courses/course-v1:Esukhiax+Esukhia001+2018/about">
+                                བོད་ཀྱི་སྐད་ཡིག་གནས་ཚད་དང་པོ།
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.arapatsa.org/courses/course-v1:Esukhia+Esukhia002+2018/about">
+                                བོད་ཀྱི་སྐད་ཡིག་གནས་ཚད་གཉིས་པ།
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.arapatsa.org/courses/course-v1:Esukhia+TSL-A0+2018/about">
+                                བོད་ཀྱི་སྐད་ཡིག་གནས་ཚད་སྔོན་འགྲོ།
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.arapatsa.org/courses/course-v1:BDRC+BUDAx_DIG01_16+2023_10/about">
+                                དཔེ་ཆ་བཤེར་འབེབས་བྱེད་ཚུལ།
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.arapatsa.org/courses/course-v1:Khentsefoundation+KF02+2019/about">
+                                བློ་གསལ་འཇུག་ངོགས། ༼སུམ་ཅུ་པ༽
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <!-- Map -->
+            <div class="col-md-4">
+
+                <div class="title-box clearfix">
+
+                    <h2 class="title-box_primary">
+                        ས་ཁྲ།
+                    </h2>
+
+                </div>
+
+                <figure class="frame thumbnail alignnone clearfix">
+
+                    <p>
+
+                        <img
+                            class="size-full"
+                            alt="usa"
+                            src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t1.18169-9/7060_502811549772271_1038252107_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c2f564&_nc_ohc=XKAQqI1h4OQAX_XGPPd&_nc_ht=scontent.ftpe8-3.fna&oh=00_AfClFutveRNooPM4IqCUEqYA3PWRUFwcKhURV49OQXk5Tw&oe=659A4F40"
+                            width=""
+                            height="197">
+
+                    </p>
+
+                </figure>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- News -->
+    <section class="news-box">
+
+        <div class="container">
+
+            <h2>
+                <span>གནས་ཚུལ་གསར་པ།</span>
+            </h2>
+
+            <div class="row">
+
+
+                <!-- News 1 -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+
+                    <div class="newsBox">
+
+                        <div class="thumbnail">
+
+                            <figure>
+
+                                <time datetime="2014-01-01">
+                                    25 Nov, 2014
+                                </time>
+
+                                <img
+                                    src="https://tibettimes.net/wp-content/uploads/2017/09/1234567-1.jpg"
+                                    alt="">
+
+                            </figure>
+
+                            <div class="caption maxheight2">
+
+                                <div class="box_inner">
+
+                                    མྱུར་སྦྱོང་འཛིན་གྲྭའི་སློབ་འཁྲིད་བྱེད་སྟངས་དེ་ཡག་པོ་འདུག
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- News 2 -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+
+                    <div class="newsBox">
+
+                        <div class="thumbnail">
+
+                            <figure>
+
+                                <time datetime="2014-01-01">
+                                    25 Nov, 2014
+                                </time>
+
+                                <img
+                                    src="https://tibettimes.net/wp-content/uploads/2017/09/werrrttyyuyuui.jpg"
+                                    alt="">
+
+                            </figure>
+
+                            <div class="caption maxheight2">
+
+                                <div class="box_inner">
+
+                                    ནང་བསྟན་སྲི་ཞུ་ཁང་དབུ་བརྙེས་ཏེ་ལོ་གསུམ་འཁོར་བའི་མཛད་སྒོ་ཚོགས་པ།
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- News 3 -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+
+                    <div class="newsBox">
+
+                        <div class="thumbnail">
+
+                            <figure>
+
+                                <time datetime="2014-01-01">
+                                    25 Nov, 2014
+                                </time>
+
+                                <img
+                                    src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t39.30808-6/405490768_385259340512869_5547925886813873459_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_ohc=mTob-rJKducAX8_H3lZ&_nc_ht=scontent.ftpe8-3.fna&oh=00_AfC6RsJAD9QCTF5Iq0F9CzHeFxofGX7Dholj-GyC-vhKyQ&oe=65779971"
+                                    alt="">
+
+                            </figure>
+
+                            <div class="caption maxheight2">
+
+                                <div class="box_inner">
+
+                                    དྲ་ཐོག་འཛིན་གྲྭ་འཚོགས་བཞིན་པ།
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- News 4 -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+
+                    <div class="newsBox">
+
+                        <div class="thumbnail">
+
+                            <figure>
+
+                                <time datetime="2014-01-01">
+                                    25 Nov, 2014
+                                </time>
+
+                                <img
+                                    src="https://scontent.ftpe8-2.fna.fbcdn.net/v/t39.30808-6/381850540_347585834280220_8848576472154300381_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=3635dc&_nc_ohc=KZiEY9SE0_4AX910vKR&_nc_ht=scontent.ftpe8-2.fna&oh=00_AfBI4PI5QdvpUXSHpcsmV5LBYeXlBldG4uOau-OBU3t-Zg&oe=65782EBC"
+                                    alt="">
+
+                            </figure>
+
+                            <div class="caption maxheight2">
+
+                                <div class="box_inner">
+
+                                    སློབ་ཁྲིད་ལུགས་ལྡོག་གི་ངོ་སྤྲོད།
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
     <footer id="footer">
-		<div class="container">
-			<div class="social text-center">
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-dribbble"></i></a>
-				<a href="#"><i class="fa fa-flickr"></i></a>
-				<a href="#"><i class="fa fa-github"></i></a>
-			</div>
 
-			<div class="clear"></div>
-			<!--CLEAR FLOATS-->
-		</div>
-		<div class="footer2">
-			<div class="container">
-				<div class="row">
+        <div class="container">
 
-					<div class="col-md-6 panel">
-						<div class="panel-body">
-							<p class="simplenav">
-								<a href="index.html">Home</a> | 
-								<a href="about.html">About</a> |
-								<a href="courses.html">Courses</a> |
-								<a href="fees.html">Fees</a> |
-								<a href="portfolio.html">Portfolio</a> |
-								<a href="contact.html">Contact</a>
-							</p>
-						</div>
-					</div>
+            <div class="social text-center">
 
-					<div class="col-md-6 panel">
-						<div class="panel-body">
-							<p class="text-right">
-								Copyright &copy; 2014. Template by <a href="http://webthemez.com/" rel="develop">WebThemez.com</a>
-							</p>
-						</div>
-					</div>
+                <a href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
 
-				</div>
-				<!-- /row of panels -->
-			</div>
-		</div>
-	</footer>
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
 
-	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-	<script src="assets/js/modernizr-latest.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.cslider.js"></script>
-	<script src="assets/js/custom.js"></script>
+                <a href="#">
+                    <i class="fa fa-dribbble"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-flickr"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-github"></i>
+                </a>
+
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+
+
+        <div class="footer2">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6 panel">
+
+                        <div class="panel-body">
+
+                            <p class="simplenav">
+
+                                <a href="index.html">Home</a> |
+
+                                <a href="about.html">About</a> |
+
+                                <a href="courses.html">Courses</a> |
+
+                                <a href="fees.html">Fees</a> |
+
+                                <a href="portfolio.html">Portfolio</a> |
+
+                                <a href="contact.html">Contact</a>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-6 panel">
+
+                        <div class="panel-body">
+
+                            <p class="text-right">
+
+                                Copyright &copy; 2014.
+                                Template by
+                                <a href="http://webthemez.com/" rel="develop">
+                                    WebThemez.com
+                                </a>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="assets/js/modernizr-latest.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/jquery.cslider.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+
 </body>
 </html>
+```
